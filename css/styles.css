@@ -2,23 +2,14 @@
   background-color: #ff4c68;
   color: black;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-#thirdtitle {
-  background-color:#ef8172;
-=======
-=======
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
+
 #secondtitle {
   background-color: white;
   color: black;
 }
 #thirdtitle {
   background-color: #ff4c68;
-<<<<<<< HEAD
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
-=======
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
+
   color: black;
 }
 .title-heading {
@@ -133,18 +124,8 @@ h1 {
   padding: 7% 15%;
 }
 #footer {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-color: white;
-  color: black;
-=======
   background-color: #fff;
   color: grey;
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
-=======
-  background-color: #fff;
-  color: grey;
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
   text-align: center;
   padding: 7% 15%;
 }
@@ -179,14 +160,8 @@ h1 {
 .custom-heading {
   margin-bottom: 50%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.logo{
+.logo {
   width: 5%;
   position: relative;
   left: -10px;
 }
-=======
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
-=======
->>>>>>> a2602f0bec3419589e1ff66a223f18adca15daad
