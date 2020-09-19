@@ -1,18 +1,8 @@
-/* ---------------------------------------------- */
-/*            CODE EXPLAINED TUTORIALS            */
-/*         www.youtube.com/CodeExplained          */
-/* ---------------------------------------------- */
-
-/* ---------------------------------------------- */
-/*                  LOAD FONTS                    */
-/* ---------------------------------------------- */
 @font-face {
   font-family: "Gilroy";
   src: url(./Gilroy-Regular.woff) format(woff);
 }
-/* ---------------------------------------------- */
-/*                    GENERAL                     */
-/* ---------------------------------------------- */
+
 * {
   padding: 0;
   margin: 0;
@@ -50,7 +40,17 @@ header {
 
   margin: 0 auto;
 
-  background-color: #f3f2f2;
+  background-color: #c30934;
+}
+
+.topnav a:hover {
+  background-color: #da335a;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
 }
 /* -------- LOGO -------- */
 .logo {
@@ -63,7 +63,7 @@ header {
 }
 .logo p {
   font-weight: bold;
-  color: #c30934;
+  color: #fff;
 }
 /* -------- NAV -------- */
 nav {
@@ -81,7 +81,7 @@ nav ul li:last-child {
 }
 nav ul li a {
   text-decoration: none;
-  color: #c30934;
+  color: #fff;
   padding: 10px;
   text: bold;
 }
