@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1500px;
+  width: 100%;
+  height: 60px;
+
+  margin: 0 auto;
+
+  background-color: #c30934;
+}
+
+.topnav a:hover {
+  background-color: #da335a;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+/* -------- LOGO -------- */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.logo img {
+  width: 60px;
+}
+.logo p {
+  font-weight: bold;
+  color: #fff;
+}
+/* -------- NAV -------- */
+nav {
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li:last-child {
+  padding-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  text: bold;
+}
+.team-section {
+  background: #e0e2db;
+  text-align: center;
+}
+.inner-width {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+.team-section h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.pe {
+  float: left;
+  width: calc(100% / 3);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+.pe:hover {
+  background: #d2d4c8;
+}
+.pe img {
+  width: 320px;
+  height: 320px;
+}
+.p-name {
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+.p-des {
+  font-style: italic;
+  color: #3498db;
+}
+.p-sm {
+  margin-top: 12px;
+}
+.p-sm a {
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.p-sm a:hover {
+  transform: scale(1.3);
+}
+.p-sm a i {
+  color: #333;
+  line-height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .pe {
+    width: 100%;
+  }
+}
