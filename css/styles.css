@@ -18,6 +18,20 @@
   line-height: 1.5;
   color: #c30934;
 }
+#sendb {
+  z-index: 1;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #da335a;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
 
 h1,
 h2,
@@ -74,7 +88,7 @@ body {
 
 .title-image {
   width: 130%;
-  position: relative;
+  position: auto;
   padding-top: 100px;
   margin-bottom: -60%;
   height: auto;
@@ -164,4 +178,9 @@ h1 {
   width: 5%;
   position: relative;
   left: -10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
