@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico" />
 
     <script
       src="https://kit.fontawesome.com/d532e2490e.js"
@@ -47,28 +47,8 @@
       <div class="container-fluid" id="firstpage">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-
-           <img class="logo" src="images/mainlogo.png" alt="">
-        <a class="navbar-brand" href="">tindog</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse topnav" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#stats">Statistics</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Find a Doctor</a>
-            </li>
-        </ul>
-     </div>
-    </nav>
-
-          <!-- <a class="navbar-brand" href="">lifeline</a> -->
+          <img class="logo" src="images/mainlogo.png" alt="" />
+          <a class="navbar-brand" href="">tindog</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -80,42 +60,48 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse topnav"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link">Home</a>
+                <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Statistics</a>
+                <a class="nav-link" href="#stats">Statistics</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Doctor</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Stores</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">AdminPanel</a>
+                <a class="nav-link" href="#thirdtitle">Find a Doctor</a>
               </li>
             </ul>
           </div>
         </nav>
 
+        <!-- <a class="navbar-brand" href="">lifeline</a> -->
 
         <!-- Big Title -->
         <div class="row">
           <div class="col-lg-6">
             <h1 class="big-heading">COVID-19</h1>
             <h3 class="title-heading">We have got you covered.</h3>
-           <a href="#carousel"><button
-            type="button"
-            class="btn btn-outline-light btn-lg download-button"
-            href="#carousel">
-            Get Started
-          </button></a> 
+            <a href="#carousel"
+              ><button
+                type="button"
+                class="btn btn-outline-light btn-lg download-button"
+                href="#carousel"
+              >
+                Get Started
+              </button></a
+            >
           </div>
           <div class="col-lg-6">
-            <img class="title-image" id="sendb" src="images/1.png" alt="Doctor" />
+            <img
+              class="title-image"
+              id="sendb"
+              src="images/1.png"
+              alt="Doctor"
+            />
           </div>
         </div>
       </div>
@@ -209,14 +195,17 @@
         <div class="row">
           <div class="col-lg-6">
             <h1 class="small-heading">
-              Visualize data and <strong class="bold" id="thirdtiletext" >facts</strong>
+              Visualize data and
+              <strong class="bold" id="thirdtiletext">facts</strong>
             </h1>
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg download-button"
+            <a href="stats/stats.html"
+              ><button
+                type="button"
+                class="btn btn-outline-light btn-lg download-button"
+              >
+                Check here
+              </button></a
             >
-              Check here
-            </button>
           </div>
           <div class="col-lg-6">
             <img class="globe-img" src="images/facto.png" alt="" />
@@ -290,83 +279,96 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
-            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            <p class="text-justify" id="about-footer">
+              We are team of open source collaborators working on project for
+              ChennaiHACK regarding the COVID-19 epidemic.
+            </p>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+              <li><a href="#thirdtile">Connect to Doctor</a></li>
+              <li>
+                <a href="/stats/stats.html">Stats</a>
+              </li>
+              <li>
+                <a href="#">Feedback</a>
+              </li>
+              <li>
+                <a href="#">Meet our Team</a>
+              </li>
             </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              <li><a href="https://www.mohfw.gov.in/">COVID-19 INDIA</a></li>
+              <li><a href="https://www.icmr.gov.in/">ICMR</a></li>
+              <li>
+                <a href="https://www.who.int/">WHO</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.cnbctv18.com/healthcare/here-is-a-list-of-important-numbers-related-to-the-coronavirus-pandemic-5873071.htm"
+                  >Covid Helpline</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://covid.icmr.org.in/index.php/rapid-response-team"
+                  >Rapid Response team</a
+                >
+              </li>
             </ul>
           </div>
         </div>
-        <hr>
+        <hr />
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-         <a href="#">Scanfcode</a>.
+            <p class="copyright-text">
+              Made with ☕ by team
+              <a href="#"> Hashtag</a>.
             </p>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-            </ul>
           </div>
         </div>
       </div>
-</footer>
+    </footer>
 
-<!--footer end-->
+    <!--footer end-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+            // Store hash
+            var hash = this.hash;
 
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
       });
-    } // End if
-  });
-});
-</script>
+    </script>
 
     <!--chatbot-->
     <!-- <script>
