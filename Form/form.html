@@ -1,0 +1,121 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Assessment form</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="icon" href="favicon.ico">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4 custom" src="images/mainlogo.png" alt="" width="72" height="72">
+    <h2>Assessment Form</h2>
+    <p class="lead">The information from this form will be useful for monitoring & management of the current health crisis and research in the fight against COVID-19.</p>
+  </div>
+
+  <form class="needs-validation" novalidate>
+      <h4 class="mb-3">Are you experiencing any of the following symptoms?</h4>
+    <hr class="mb-4">
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="cough">
+      <label class="custom-control-label" for="cough">Cough</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="fever">
+      <label class="custom-control-label" for="fever">Fever</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="breathing">
+      <label class="custom-control-label" for="breathing">Difficulty in breathing</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="loss-taste">
+      <label class="custom-control-label" for="loss-taste">Loss of smell and taste</label>
+    </div>
+    <hr class="mb-4">
+
+
+        <label for="travel">Have you travelled internationally in the last 28-45 days?</label>
+        <select class="custom-select d-block w-100" id="travel" required>
+          <option value="">Choose...</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid option.
+        </div>
+
+
+          <label for="disease">Have you ever had any of the following</label>
+          <select class="custom-select d-block w-100" id="disease" required>
+            <option value="">Choose...</option>
+            <option>Diabetes</option>
+            <option>Lung Disease</option>
+            <option>Heart Disease</option>
+            <option>Kidney Disorder</option>
+            <option>None of the above</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid option.
+          </div>
+
+          <h4 >Which of the following applies to you?</h4>
+
+          <div class="d-block my-3">
+
+           <div class="custom-control custom-radio">
+             <input id="lived" name="applies" type="radio" class="custom-control-input" checked required>
+             <label class="custom-control-label" for="lived">I have recently interacted or lived with someone who has tested positive for COVID-19</label>
+           </div>
+           <div class="custom-control custom-radio">
+             <input id="worker" name="applies" type="radio" class="custom-control-input" required>
+             <label class="custom-control-label" for="worker">I am a healthcare worker and I examined a COVID-19 confirmed case without protective gear</label>
+
+           </div>
+           <div class="custom-control custom-radio">
+             <input id="none" name="applies" type="radio" class="custom-control-input" required>
+             <label class="custom-control-label" for="none">None of the above.</label>
+
+           </div>
+</div>
+<hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Submit Information</button>
+      </form>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; LifeLine</p>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        <script src="form-validation.js"></script></body>
+</html>
