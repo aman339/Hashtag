@@ -1,4 +1,4 @@
-# Lifeline by Team HASHTAG
+# ⚕️Lifeline by Team HASHTAG 
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)  [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/)
 
@@ -44,7 +44,7 @@ are available on the following platforms: Mobile and Web
 
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/) [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) [![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
 
-# by team [HASHTAG](https://team-hashtag.netlify.app/team/team)
+# Meet our team 👾[HASHTAG](https://team-hashtag.netlify.app/team/team)
 
                 
 
