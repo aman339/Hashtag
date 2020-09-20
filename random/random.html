@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>LifeLine button</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+    body{
+        background-color: #da335a;
+    }
+    #demo{  
+        margin: 50px;
+        color:white;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #abs{
+        margin: 50px;
+        color:white;
+        font-size: 5rem;
+        text-align: center;
+    }
+    button{
+        width:45%;
+        height:70px;
+        background-color: #FF5733;
+        color:white;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-left: 450px;
+        margin-top: 70px;
+        font-size: 3rem;
+    }
+    button>a{
+        color:white;
+        
+    }
+    a:hover{
+        color: white;
+    }
+    
+</style>
+<div>
+    <p id="abs">
+        According to the Information entered by you, we recommend this doctor:
+    </p>
+</div>
+<div>
+    <p id="demo"></p>
+</div>
+<div>
+    <button class="rock">
+      <a href="../Form/form.html"> Want to Fill Another Form ?</a> 
+    </button>
+</div>
+<div>
+    <button class="rock">
+      <a href="../index.html">Home</a> 
+    </button>
+</div>
+
+<script>
+    const doctor = [
+    "Dr. Sameer- Contact Information: 8529496912 Email:sameer@gmail.com",
+    "Dr. Rohan - Contact Information: 9827651254 Email:rohan98@gmail.com",
+    "Dr. Raveena- Contact Information: 9927658456 Email:raveena01@yahoo.in",
+    "Dr. Aarti- Contact Information: 8529564585 Email:aarti_maidh@hotmail.com",
+    "Dr. Padmini- Contact Information: 8545849785 Email:padmini8956@gmail.com",
+    
+    ]
+    var n = Math.floor((Math.random() * 4) +1);
+    document.getElementById("demo").innerHTML = doctor[n];
+</script>
+</body>
+</html>
